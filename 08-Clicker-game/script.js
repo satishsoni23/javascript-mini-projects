@@ -9,8 +9,8 @@ circleelement.textContent="KRSN"
 const color=['red','blue','purple','grey','yellow','pink'];
 circleelement.style.backgroundColor=color[Math.floor(Math.random()*6)];
 
-circleelement.style.top=`${e.clientY}px`;
-circleelement.style.left=`${e.clientX}px`;
+circleelement.style.top=`${e.clientY-25}px`;
+circleelement.style.left=`${e.clientX-25}px`;
 
 body.append(circleelement);
 
